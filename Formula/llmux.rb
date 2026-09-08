@@ -5,21 +5,21 @@ class Llmux < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.23/llmux-aarch64-apple-darwin.tar.xz"
-      sha256 "da5378c3dc9cd6940ff5c94c1538b21174ce4cd869064b4ada88de9eb1674aa6"
+      sha256 "fdcc099bcdcda01d89636ac5d5e0753ff355e15e8360d2a36e753098626b3870"
     end
     if Hardware::CPU.intel?
       url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.23/llmux-x86_64-apple-darwin.tar.xz"
-      sha256 "21d8392fd50e527cf43a3ef1e61bd20dc71f87e65cb4631d74f9489e0335d9e5"
+      sha256 "e863cad9027a3db45ef786c39242c15890a3d3a80ebdf1fd97d64437cb822382"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.23/llmux-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "65d3b84543cb199c81c68d6f19b9849390119d3887b8041beb91efe12ca51f73"
+      sha256 "f792f339a7d1fad6d8f393415bc4b3ab4b256b13f0c8ba587bb4cc98db366f58"
     end
     if Hardware::CPU.intel?
       url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.23/llmux-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0e2eaa30a39bf1378c6b9b1ddf68ac54c82069fa39d2910c90716af97102b4f7"
+      sha256 "fe73e2ef91cca5fd60d7c4fd64c05e891649d08f2492a08a361ca470fa2cd2d5"
     end
   end
   license "AGPL-3.0"
