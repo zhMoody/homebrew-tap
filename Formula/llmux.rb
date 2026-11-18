@@ -1,25 +1,25 @@
 class Llmux < Formula
   desc "Local AI API gateway and multiplexer"
   homepage "https://github.com/zhMoody/llmux-cli-rs"
-  version "0.5.26"
+  version "0.5.28"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.26/llmux-aarch64-apple-darwin.tar.xz"
-      sha256 "4b7cee364a5c27b677fd551475f06505be8ea06bae715959f844edba12597c10"
+      url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.28/llmux-aarch64-apple-darwin.tar.xz"
+      sha256 "e2f8baaca4cddc26b4eb502c91a579b6439b18958c1f08209a4d516abf0c9a7b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.26/llmux-x86_64-apple-darwin.tar.xz"
-      sha256 "791fe7c6fea5b3eef4969f176787c153dc79addb6edd54c1a2ec078c8eed442e"
+      url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.28/llmux-x86_64-apple-darwin.tar.xz"
+      sha256 "6e9e485f3363fbdab8b7a9bb7510664e16fb664c1bf45a2fb4b4b999c74b2cb1"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.26/llmux-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4a2f4e6f3110dec405f783c80f7fa17ef1dbe2958ed3ef07eeadd2178efa69e5"
+      url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.28/llmux-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "66fe36ff64c416991b7af33523b839d69244b35fb101b081508bc9d97a33a79b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.26/llmux-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3709d90efa9ad0d36d3623e116160f87408c73612970f61ed67776343616caf8"
+      url "https://github.com/zhMoody/llmux-cli-rs/releases/download/v0.5.28/llmux-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "7d622b5a5d791b6facf3f9e9d62be4d7f845e0876e20b6365f9db7117fc8e59e"
     end
   end
   license "AGPL-3.0"
